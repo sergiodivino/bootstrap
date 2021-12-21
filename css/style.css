@@ -1,0 +1,33 @@
+body{
+    font-family: 'Arial Narsrow', Arial, sans-serif;   
+}
+.navbar {/*muda cor de fundo do navbar*/
+    background-color:rgba(196, 54, 54, 0.911); 
+    color: rgb(23, 243, 23);
+}
+.quem-somos {/*muda cor de fundo do quem somos*/
+   background-color: rgba(158, 155, 141, 0.288); 
+    color: rgb(252, 97, 8);
+  }
+.margin{/* cria uma margem interna */
+            padding-bottom: 20px;
+            padding-top: 10px;   
+}
+.parceiros{
+    background-color: rgba(175, 190, 187, 0.897);
+    color: rgb(0, 0, 0);
+    
+}
+.servico .texto{
+    color: rgb(0, 0, 0);
+    background-color: rgb(177, 218, 218);
+    
+   }
+
+.bt-footer{
+    background-color: rgba(4, 141, 151, 0.671);
+   color:rgb(0, 0, 0);
+}
+.img_borda{
+    border-radius: 15px;
+}

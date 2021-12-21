@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- importando css do bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Usando Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light margin ">
+        <!--cria barra de navegação-->
+        <a class="navbar-brand" href="#">
+            <img src="img/globallabs.png" width="440" height="150" alt="global labs">
+            <!--adiciona uma imagem -->
+
+        </a>
+        <div class="collapse navbar-collapse ">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                    <!--cria link de opção-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servico">Serviço</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <!--contaner fluid pega a pagina inteira-->
+            <h3>Quem Somos</h3>
+            <img src="img/equipe.jpg" class="rounded-circle" width="60%">
+            <h3>Somos uma equipe comprometida com os resultados</h3>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <!--inicia as colunas-->
+                    <div class="col-md-4">
+                        <img src="img/diital innovation.png" width="60%">
+                        <!--coloca image em cada coluna-->
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/diital innovation.png" width="60%">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/diital innovation.png" width="60%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servico">
+        <div class="container-fluid text-center margin servico">
+            <h3 class="margin">serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="texto">Pensamos nos softwares para que eles façam o trabalho duro,
+                            a idéia é você ser guiado até o propósito de forma próativa.</p>
+                        <img class="img_borda" src="img/app.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="texto">Pensamos nos softwares para que eles façam o trabalho duro,
+                            a idéia é você ser guiado até o propósito de forma próativa.</p>
+                        <img class="img_borda" src="img/imageo letra.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bt-footer">
+        <p>Desenvolvido por: Sergio dos Santos do Amor Divino </p>
+    </footer>
+</body>
+</html>
